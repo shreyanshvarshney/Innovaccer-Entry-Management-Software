@@ -4,6 +4,19 @@
 
 
 ### Introduction
-**Entry Management Software**  (**EMS**) is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
+**Entry Management Software**  (**EMS**) is a completely local host (phpMyAdmin) based application for the assignment of Innovaccer.
+It is a software to automate the process of Entry management system in Innovaccer.
 
-Web browsers receive HTML documents from a web server or from local storage and render the documents into multimedia web pages. HTML describes the structure of a web page semantically and originally included cues for the appearance of the document.
+### Tools and Technology Used:
+ - HTML
+ - CSS
+ - Bootstrap
+ - Javascript/JQuery
+ - PHP
+ - MySQL
+ 
+ ## Description
+ The approach towards this assignment is to automate the task of EMS. By using one of the major concept of Software Engineering: **Sequential Diagram** to easily visualize this system.
+ <a href="src/img/sequence_diagram_ems.png">Sequential Diagram</a>
+
+ **index.php** is the landing page for the whole application in src folder. **css** folder contains all the css style sheets for the application. **img** folder contains all the images of the application.
