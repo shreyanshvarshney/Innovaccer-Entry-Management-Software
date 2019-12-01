@@ -50,7 +50,24 @@ It is a software to automate the process of Entry management system in Innovacce
  
  ### After this step Host will receive all the details of visitor.
  
- #### Email: Using localhost mail() function and SMS through <a href="https://g.co/kgs/gdPYLd">Textlocal</a> written in PHP script.
+ #### Email: Using localhost mail() function and SMS through <a href="https://g.co/kgs/gdPYLd">Textlocal</a> (Note: This API provides only 10 SMS for free.) written in PHP script.
+ 
+ #### Important for mail() using localhost Xampp:
+ 
+ #### Make changes in php.ini file in xampp folder of C drive:
+SMTP=smtp.gmail.com
+smtp_port=587
+sendmail_from = mail@gmail.com
+sendmail_path = "\"C:\xampp\sendmail\sendmail.exe\" -t"
+
+ #### Make changes in sendmail.ini file in xampp folder of C drive:
+smtp_server=smtp.gmail.com
+smtp_port=587
+error_logfile=error.log
+debug_logfile=debug.log
+auth_username=mail@gmail.com
+auth_password=yourpassword
+force_sender=mail@gmail.com
  
  #### step 5
  <img src="src/img/step5.png" width="600px" height="400px">
