@@ -37,16 +37,16 @@ It is a software to automate the process of Entry management system in Innovacce
  <img src="src/img/visitor_page.png" width="600px" height="400px">
  
  ## Control flow
- #### step 1
+ #### step 1: Here host enter his/her details on the frontend side.
  <img src="src/img/step1.png" width="600px" height="400px">
  
- #### step 2
+ #### step 2: Details of host stored in the Database.
  <img src="src/img/step2.png" width="600px" height="400px">
  
- #### step 3
+ #### step 3: Now Visitor fill details, and check's in the office. 
  <img src="src/img/step3.png" width="600px" height="400px">
  
- #### step 4
+ #### step 4: Successfull Checks In the office.
  <img src="src/img/step4.png" width="600px" height="400px">
  
  ### After this step Host will receive all the details of visitor.
@@ -70,15 +70,15 @@ auth_username=mail@gmail.com
 auth_password=yourpassword
 force_sender=mail@gmail.com
  
- #### step 5
+ #### step 5: All details of the visitor are stored with the current timestamp.
  <img src="src/img/step5.png" width="600px" height="400px">
  
- #### step 6
+ #### step 6: When visitor clicks the check out button after his/her meeting or work is over.
  <img src="src/img/step6.png" width="600px" height="400px">
  
  ### After this step when visitor clicks check out button.
  
- #### step 7
+ #### step 7: All the visit details are stored with the Host name, CheckIn time and checkOut time.
  <img src="src/img/step7.png" width="600px" height="400px">
  
  ### After this, Visitor will receive all the visit details as mentioned in the above MySQL Database. Checkin_time and checkout_time(datetime) in the above picture also.
