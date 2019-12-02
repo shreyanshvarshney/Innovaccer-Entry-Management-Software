@@ -14,6 +14,7 @@ It is a software to automate the process of Entry management system in Innovacce
  - Javascript/JQuery
  - PHP (sessions)
  - MySQL
+ - Web Security(SQL Injection)
  
  ## Description
  The approach towards this assignment is to automate the task of EMS. By using one of the major concept of Software Engineering: **Sequential Diagram** to easily visualize this system.
@@ -80,9 +81,8 @@ force_sender=mail@gmail.com
  #### step 7
  <img src="src/img/step7.png" width="600px" height="400px">
  
- ### After this, Visitor will receive all the visit details as mentioned in the above MySQL Database.
+ ### After this, Visitor will receive all the visit details as mentioned in the above MySQL Database. Checkin_time and checkout_time(datetime) in the above picture also.
  
  ## End of file.
  
  ### Thanks for giving this opportunity, Hope for a good news soon :blush: .
- 
